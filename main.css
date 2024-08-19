@@ -1,0 +1,11 @@
+body {
+	background-color: black;
+}
+
+#squareDivs {
+    display: flex;
+    flex-wrap: wrap;
+	width: 1200px;
+	height: 1200px;
+	background-color: antiquewhite;
+}
