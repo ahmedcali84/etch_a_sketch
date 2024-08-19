@@ -1,15 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
 	const numButton = document.getElementById('numButton');
 	numButton.addEventListener('click' , function () {
-		const userInput = Number(window.prompt("Type the number of squares per row" , ""));
-		while(userInput >= 100)
+		let userInput = Number(window.prompt("Type the number of squares per row" , ""));
+		while(userInput > 100 || userInput <= 0)
 		{
-			alert("choose Number less than 100");
+			alert("choose Number between 1 and 100");
 			userInput = Number(window.prompt("Type the number of squares per row" , ""));
-			createDiv(userInput);
 		}
 		createDiv(userInput);
-	})
+	});
 });
 
 function createDiv(num)
