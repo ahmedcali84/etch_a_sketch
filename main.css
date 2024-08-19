@@ -9,3 +9,15 @@ body {
 	height: 1200px;
 	background-color: antiquewhite;
 }
+
+#numButton {
+	background-color: rgb(40, 187, 212);
+	border: 1px solid white;
+	color: white;
+	border-radius: 8px;
+	width: 20%;
+	height: auto;
+	padding: 8px;
+	display: block;
+	margin: 10px auto;
+}
