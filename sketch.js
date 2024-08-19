@@ -43,11 +43,7 @@ function createDiv(num)
 			divC.addEventListener('mouseover', (event) => {
 				event.target.style.backgroundColor = 'rgb(202, 202, 202)'
 			});
-		
-			divC.addEventListener('mouseout', (event) => {
-				event.target.style.backgroundColor = 'white'
-			});
-	
+			
 			parentDiv.appendChild(divC);
 		}
 	}
